@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormNilai</class>
+ <widget class="QWidget" name="FormNilai">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form Nilai</string>
+  </property>
+
+  <widget class="QComboBox" name="comboBox_mahasiswa">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+
+  <widget class="QLineEdit" name="lineEdit_harian">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nilai Harian</string>
+   </property>
+  </widget>
+
+  <widget class="QLineEdit" name="lineEdit_tugas">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>80</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nilai Tugas</string>
+   </property>
+  </widget>
+
+  <widget class="QLineEdit" name="lineEdit_uts">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nilai UTS</string>
+   </property>
+  </widget>
+
+  <widget class="QLineEdit" name="lineEdit_uas">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nilai UAS</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="btn_tambah">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tambah</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="btn_ubah">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>70</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="btn_hapus">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>110</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+
+  <widget class="QPushButton" name="btn_batal">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>150</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Batal</string>
+   </property>
+  </widget>
+
+  <widget class="QTableWidget" name="tableNilai">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>570</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID Mahasiswa</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Harian</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tugas</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>UTS</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>UAS</string>
+    </property>
+   </column>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
